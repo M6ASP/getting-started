@@ -39,7 +39,7 @@ def create_local_file(file_name, form, nc):
 nc = netCDF4.Dataset(data_url(0))
 # Create a file using each netcdf format
 create_local_file('WOA13_annual_SST_nc3_classic.nc', 'NETCDF3_CLASSIC', nc)
-#create_local_file('WOA13_annual_SST_nc3_64bitoffset.nc', 'NETCDF3_64BIT_OFFSET', nc)
-#create_local_file('WOA13_annual_SST_nc3_64bitdata.nc', 'NETCDF3_64BIT_DATA', nc)
-#create_local_file('WOA13_annual_SST_nc4_classic.nc', 'NETCDF4_CLASSIC', nc)
-#create_local_file('WOA13_annual_SST_nc4.nc', 'NETCDF4', nc)
+create_local_file('WOA13_annual_SST_nc3_64bitoffset.nc', 'NETCDF3_64BIT_OFFSET', nc)
+create_local_file('WOA13_annual_SST_nc3_64bitdata.nc', 'NETCDF3_64BIT_DATA', nc)
+create_local_file('WOA13_annual_SST_nc4_classic.nc', 'NETCDF4_CLASSIC', nc)
+create_local_file('WOA13_annual_SST_nc4.nc', 'NETCDF4', nc)

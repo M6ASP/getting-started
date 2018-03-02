@@ -1,0 +1,3 @@
+[submodule "example_1degree_data"]
+	path = example_1degree_data
+	url = https://github.com/M6ASP/example_1degree_data.git
